@@ -1,0 +1,51 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+
+            //udp_local
+            //"program": "D:/src/python/NP-teacher/WEEK02/udp_local.py",
+            
+            //----------------------------------------------------------------------------------------------
+            //udp_remote
+            //"program": "c:/src/python/NP-teacher/WEEK02/udp_remote.py",
+            
+            //tcp
+            //"program": "c:/src/python/NP-teacher/WEEK04/tcp.py",
+
+             //sending file
+            //"program": "c:/src/python/Week06/shared/sending_file.py",
+            //"args":["client", "192.168.8.104"],
+            //"args":["client", "172.16.1.160"],
+            
+
+             //receiving file
+            //"program": "c:/src/python/Week06/shared/receiving_file.py",
+            "program": "D:/REPO-PY-Exercises/Prime-Number/cleint.py",
+            //"args":["server", "0.0.0.0"],
+            //"args":["server", "172.16.1.85"],
+
+
+            //server and client 
+            //"args":["server"],
+            ///"args":["server"],
+            //"args":["client", "172.16.0.179"],
+            //"args":["server", "0.0.0.0"],
+            "args":["client", "172.16.0.111"],
+            //"args":["server", "I5-9300H"],
+            //"args":["client", "172.16.0.179"],
+            //"args":["server", "172.16.0.181"],
+            //"args":["server", "192.168.0.100"],
+            //"args":["server", "I5-9300H"],
+
+            "justMyCode": true
+        }
+    ]
+}
